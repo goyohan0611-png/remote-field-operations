@@ -1,0 +1,20 @@
+{
+  "name": "remote-field-operations-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "기존 UI와 서버·에이전트 구조를 가상 데이터로 체험하는 공개용 데모",
+  "scripts": {
+    "dev": "vite --config apps/desktop/vite.config.ts --host 127.0.0.1",
+    "build": "vite build --config apps/desktop/vite.config.ts",
+    "preview": "vite preview --config apps/desktop/vite.config.ts --host 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "check:public": "node scripts/check-public.mjs",
+    "test": "node --experimental-transform-types --test tests/*.test.mjs",
+    "demo:server": "node apps/server/src/server.mjs",
+    "demo:agent": "dotnet run --project apps/agent/Fieldlink.DemoAgent.csproj"
+  },
+  "dependencies": { "axios": "1.18.0", "lucide-react": "1.24.0", "react": "19.2.7", "react-dom": "19.2.7", "zod": "4.4.3" },
+  "devDependencies": { "@types/node": "24.13.2", "@types/react": "19.2.17", "@types/react-dom": "19.2.3", "@vitejs/plugin-react": "5.2.0", "typescript": "5.9.3", "vite": "7.3.6" },
+  "engines": { "node": ">=22.12" }
+}

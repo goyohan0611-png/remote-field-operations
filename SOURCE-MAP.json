@@ -1,0 +1,201 @@
+{
+  "note": "원본 UI와 핵심 구현을 식별정보 제거 후 선별했다. 원본 경로·Git 이력·운영 설정은 포함하지 않는다.",
+  "files": [
+    {
+      "target": "apps/desktop/src/main.tsx",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/styles.css",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/vite-env.d.ts",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/components/AppDialog.tsx",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/components/date-picker.css",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/components/DatePicker.tsx",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/components/SiteConnectionAddresses.tsx",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/components/SiteConnectionCells.tsx",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/agent-status.ts",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/server-profile.ts",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/site-connection-addresses.ts",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/site-tone.ts",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/ssh-output.ts",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/useSshSession.ts",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/agent-logs/agent-logs.css",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/agent-logs/AgentLogDialog.tsx",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/agent-updates/AgentUpdates.tsx",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/auth/session-events.ts",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/nvr/audio-poll.ts",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/nvr/FirmwareVersionLink.tsx",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/recordings/demo-data.ts",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/recordings/recording-history.ts",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/recordings/RecordingFilterMenu.tsx",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/recordings/RecordingHistory.tsx",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/recordings/recordings.css",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/recordings/RecordingsDemo.tsx",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/tailscale-setup/model.ts",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/tailscale-setup/TailscaleSetupEnrollment.tsx",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/transfers/DeleteItemsDialog.tsx",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/transfers/DownloadPanel.tsx",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/transfers/file-sort.ts",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/transfers/FileFolderTree.tsx",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/transfers/model.ts",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/transfers/pc-files-path.ts",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/transfers/PcFilesDialog.tsx",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/transfers/useFileBrowser.ts",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/transfers/useFileDeletion.ts",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/desktop/src/features/video-recovery/VideoRecoveryDialog.tsx",
+      "kind": "기존 UI에서 식별정보와 데모 연동을 변경"
+    },
+    {
+      "target": "apps/server/implementation/agent-command-broker.ts",
+      "kind": "원본 서버 핵심 구현, 데모 시작 시 실행하지 않음"
+    },
+    {
+      "target": "apps/server/implementation/agent-freshness.ts",
+      "kind": "원본 서버 핵심 구현, 데모 시작 시 실행하지 않음"
+    },
+    {
+      "target": "apps/server/implementation/agent-input.ts",
+      "kind": "원본 서버 핵심 구현, 데모 시작 시 실행하지 않음"
+    },
+    {
+      "target": "apps/server/implementation/agent-network.ts",
+      "kind": "원본 서버 핵심 구현, 데모 시작 시 실행하지 않음"
+    },
+    {
+      "target": "apps/server/implementation/agent-update-version.ts",
+      "kind": "원본 서버 핵심 구현, 데모 시작 시 실행하지 않음"
+    },
+    {
+      "target": "apps/agent/Core/AgentModels.cs",
+      "kind": "원본 에이전트 핵심 구현"
+    },
+    {
+      "target": "apps/agent/Core/AgentRuntime.cs",
+      "kind": "원본 에이전트 핵심 구현"
+    },
+    {
+      "target": "apps/agent/Core/RecordingTail.cs",
+      "kind": "원본 에이전트 핵심 구현"
+    },
+    {
+      "target": "apps/server/implementation/tailscale.ts",
+      "kind": "원본 핵심 구현, 기본 데모에서 실행하지 않음"
+    },
+    {
+      "target": "apps/desktop/implementation/camera-proxy.cjs",
+      "kind": "원본 핵심 구현, 기본 데모에서 실행하지 않음"
+    },
+    {
+      "target": "packages/shared/src/ftp-delete.cts",
+      "kind": "원본 핵심 구현, 기본 데모에서 실행하지 않음"
+    }
+  ]
+}

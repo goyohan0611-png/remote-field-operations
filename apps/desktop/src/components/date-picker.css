@@ -1,0 +1,17 @@
+.app-date-input { display: flex; align-items: center; position: relative; min-width: 0; }
+.app-date-input input { width: 100%; padding-right: 36px !important; font-variant-numeric: tabular-nums; }
+.app-date-input > button { position: absolute; right: 5px; border: 0; background: transparent; color: #738196; padding: 5px; display: grid; place-items: center; }
+.app-calendar { position: fixed; z-index: 20000; width: 294px; padding: 14px; border: 1px solid #e6ebf1; border-radius: 14px; background: white; color: #243449; box-shadow: 0 12px 36px #24344926; font-family: Pretendard, sans-serif; }
+.app-calendar header, .app-calendar footer { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.app-calendar header { margin-bottom: 12px; }
+.app-calendar button { border: 0; background: transparent; color: inherit; border-radius: 7px; cursor: pointer; min-height: 32px; }
+.app-calendar header button { display: grid; place-items: center; width: 32px; }
+.app-calendar-week, .app-calendar [role="row"] { display: grid; grid-template-columns: repeat(7, 1fr); text-align: center; gap: 2px; }
+.app-calendar-week { color: #738196; font-size: 11px; margin-bottom: 6px; }
+.app-calendar [role="gridcell"] { font-size: 12px; font-variant-numeric: tabular-nums; }
+.app-calendar button:hover { background: #edf4ff; }
+.app-calendar button:focus-visible, .app-date-input button:focus-visible { outline: 2px solid #3182f6; outline-offset: 1px; }
+.app-calendar button[aria-selected="true"] { background: #3182f6; color: white; font-weight: 700; }
+.app-calendar .outside { color: #aeb8c5; }
+.app-calendar footer { margin-top: 10px; padding-top: 8px; border-top: 1px solid #e6ebf1; }
+.app-calendar footer button { padding: 4px 12px; color: #3182f6; }

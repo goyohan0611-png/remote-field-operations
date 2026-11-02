@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">원격 현장 관리 시스템의 두 가지 경로</title>
+  <desc id="desc">현장 에이전트는 HTTPS로 중앙 서버에 상태를 보고하고 관리 앱은 서버에서 조회합니다. 별도로 관리자 PC는 Tailscale을 통해 현장 서브넷 라우터와 내부 장비에 접근합니다. 공개용 개념도입니다.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#22694f"/></marker></defs>
+  <rect width="1200" height="630" rx="16" fill="#f0f4f3"/>
+  <g font-family="Segoe UI, Malgun Gothic, sans-serif" fill="#182723">
+    <text x="38" y="49" font-size="24" font-weight="600">상태는 서버로, 접속은 현장으로.</text>
+    <text x="38" y="78" font-size="14" fill="#5c6963">공개용 개념도 · 실제 회사·장비·접속정보 없음</text>
+    <rect x="28" y="105" width="1144" height="195" rx="10" fill="#fff"/>
+    <text x="48" y="137" font-size="15" font-weight="600">상태 수집·조회</text>
+    <g fill="#f7f9f8" stroke="#d4ddd7"><rect x="48" y="166" width="230" height="91" rx="8"/><rect x="478" y="166" width="244" height="91" rx="8"/><rect x="922" y="166" width="230" height="91" rx="8"/></g>
+    <text x="70" y="199" font-size="18" font-weight="600">관리 앱</text><text x="70" y="230" font-size="14" fill="#5c6963">현장별 상태 조회·표시</text>
+    <text x="500" y="199" font-size="18" font-weight="600">중앙 서버</text><text x="500" y="230" font-size="14" fill="#5c6963">등록 · 인증 · 최신 상태</text>
+    <text x="944" y="199" font-size="18" font-weight="600">현장 에이전트</text><text x="944" y="230" font-size="14" fill="#5c6963">PC·장비 상태 수집</text>
+    <g stroke="#22694f" stroke-width="2" fill="none" marker-end="url(#arrow)"><path d="M475 216H290"/><path d="M915 216H735"/></g>
+    <text x="324" y="198" font-size="13" fill="#22694f">상태 전달</text><text x="766" y="198" font-size="13" fill="#22694f">HTTPS 보고</text>
+    <rect x="28" y="319" width="1144" height="257" rx="10" fill="#fff"/>
+    <text x="48" y="353" font-size="15" font-weight="600">원격 장비 접근</text>
+    <g stroke="#d4ddd7" fill="#f7f9f8"><rect x="48" y="399" width="230" height="107" rx="8"/><rect x="530" y="399" width="244" height="107" rx="8"/><rect x="922" y="379" width="230" height="74" rx="8"/><rect x="922" y="475" width="230" height="74" rx="8"/></g>
+    <text x="70" y="437" font-size="18" font-weight="600">관리자 PC</text><text x="70" y="470" font-size="14" fill="#5c6963">SSH · RDP · 웹 · 카메라 앱</text>
+    <text x="552" y="437" font-size="18" font-weight="600">현장 PC</text><text x="552" y="470" font-size="14" fill="#5c6963">서브넷 라우터 · 패킷 전달</text>
+    <text x="944" y="411" font-size="17" font-weight="600">녹화기 / PC</text><text x="944" y="435" font-size="13" fill="#5c6963">기존 SSH · 웹 · RDP 서비스</text>
+    <text x="944" y="507" font-size="17" font-weight="600">카메라</text><text x="944" y="531" font-size="13" fill="#5c6963">기존 IPv4 제어 서비스</text>
+    <g fill="none" stroke="#22694f" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"><path d="M290 452H518"/><path d="M786 439H844V416H910"/><path d="M786 471H844V510H910"/></g>
+    <text x="334" y="432" font-size="14" fill="#22694f">Tailscale 연결</text><text x="329" y="480" font-size="12" fill="#5c6963">직접 연결 또는 중계 경로</text>
+    <text x="803" y="391" font-size="12" fill="#5c6963">내부망</text>
+    <text x="38" y="609" font-size="13" fill="#5c6963">IPv4 전용 카메라 앱은 관리자 PC의 로컬 TCP 프록시를 거쳐 연결합니다. 중앙 서버가 모든 장비 트래픽을 중계하지 않습니다.</text>
+  </g>
+</svg>

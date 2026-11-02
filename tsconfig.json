@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", "module": "ESNext", "moduleResolution": "Bundler",
+    "jsx": "react-jsx", "strict": true, "noEmit": true, "allowJs": true,
+    "esModuleInterop": true, "skipLibCheck": true, "resolveJsonModule": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"], "types": ["node", "vite/client"],
+    "baseUrl": ".", "paths": { "@fieldlink/shared": ["packages/shared/src/index.ts"], "socket.io-client": ["apps/desktop/src/demo/socket.ts"] }
+  },
+  "include": ["apps/desktop/src", "packages/shared/src", "apps/desktop/vite.config.ts", "apps/server/implementation"]
+}
